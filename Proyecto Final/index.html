@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funeraria Montecristo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <div class="barra-superior">
+    <p>Urgencias Funerarias Atención las 24 Horas</p>
+  </div>
+
+  <header class="cabecera">
+    <a href="index.html">
+      <img class="logo" src="imagenes/Logos/logo2.png" alt="Logo Funeraria Montecristo">
+    </a>
+
+    <input type="checkbox" id="menu-check" class="menu-check">
+    <label for="menu-check" class="menu-boton" aria-label="Abrir menú">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#planes">Planes funerarios</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="boton" href="tel:+51970892582">📞 Llámanos</a>
+  </header>
+
+  <!--PORTADA -->
+  <section id="inicio" class="portada">
+    <div class="portada-contenido">
+      <span class="portada-etiqueta">Atención las 24 horas</span>
+      <h1>Acompañamos a su familia en cada paso de la <em>despedida</em></h1>
+      <p>Servicios funerarios con respeto, transparencia y calidez humana en Lima y provincias.</p>
+      <div class="portada-botones">
+        <a class="boton-claro" href="tel:+51970892582">📞 Llámanos ahora</a>
+        <a class="boton-secundario" href="#servicios">Ver servicios</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS-->
+  <section id="servicios" class="servicios">
+
+    <h2 class="titulo-seccion">Nuestros servicios</h2>
+    <p class="subtitulo-seccion">Elija el servicio que necesita y le brindaremos toda la información.</p>
+
+    <div class="servicios-lista">
+
+      <article class="servicio">
+        <a href="entierro.html" class="enlace-servicio">
+          <img src="imagenes/Logos/Logo-Entierro.png" alt="Ícono de entierro" width="120">
+          <h3>Entierro</h3>
+        </a>
+      </article>
+
+      <article class="servicio">
+        <a href="cremacion.html" class="enlace-servicio">
+          <img src="imagenes/Logos/Logo-Cremacion.png" alt="Ícono de cremación" width="120">
+          <h3>Cremación</h3>
+        </a>
+      </article>
+
+      <article class="servicio">
+        <a href="traslado-terrestre.html" class="enlace-servicio">
+          <img src="imagenes/Logos/Logo-Terrestre.png" alt="Ícono de traslado terrestre" width="120">
+          <h3>Traslado terrestre</h3>
+        </a>
+      </article>
+
+      <article class="servicio">
+        <a href="traslado-aereo.html" class="enlace-servicio">
+          <img src="imagenes/Logos/Logo-Aereo.png" alt="Ícono de traslado aéreo" width="120">
+          <h3>Traslado aéreo</h3>
+        </a>
+      </article>
+
+      <article class="servicio">
+        <a href="repatriacion.html" class="enlace-servicio">
+          <img src="imagenes/Logos/Logo-Repatriacion.png" alt="Ícono de repatriación" width="120">
+          <h3>Repatriación</h3>
+        </a>
+      </article>
+
+      <article class="servicio">
+        <a href="exhumacion.html" class="enlace-servicio">
+          <img src="imagenes/Logos/Logo-Exhumacion.png" alt="Ícono de exhumación de restos" width="120">
+          <h3>Exhumación de restos</h3>
+        </a>
+      </article>
+
+      <article class="servicio">
+        <a href="floreria.html" class="enlace-servicio">
+          <img src="imagenes/Logos/Logo-Floreria.png" alt="Ícono de florería" width="120">
+          <h3>Florería</h3>
+        </a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="nosotros">
+
+    <h2 class="titulo-seccion">Nosotros</h2>
+    <p class="subtitulo-seccion">Acompañamos a las familias con respeto, calidez y profesionalismo.</p>
+
+    <div class="nosotros-intro">
+      <div class="marco-imagen">
+        <img src="imagenes/nosotros.jpeg" alt="Equipo de Funeraria Montecristo" loading="lazy">
+      </div>
+
+      <div class="nosotros-texto">
+        <h3>Quiénes somos</h3>
+        <p>
+          En Funeraria Montecristo entendemos que despedir a un ser querido es uno de los momentos más difíciles de
+          la vida. Por eso ponemos a disposición de cada familia un equipo humano y profesional que se encarga de todos
+          los detalles, para que usted pueda dedicarse a lo más importante: acompañar y recordar.
+        </p>
+        <p>
+          Brindamos atención las 24 horas, todos los días del año, y ofrecemos servicios de entierro, cremación,
+          traslados, repatriación, exhumación y florería, siempre con transparencia y trato digno.
+        </p>
+        <a href="#contacto" class="boton-detalles">Contáctanos</a>
+      </div>
+    </div>
+
+    <!-- 3 tarjetas: Misión, Visión y Valores (css: .tarjeta). Los iconos son emojis; aria-
+         hidden='true' hace que los lectores de pantalla los ignoren. Se pueden cambiar por
+         imágenes o borrar. -->
+    <div class="tarjetas-nosotros">
+      <article class="tarjeta">
+        <span class="tarjeta-icono" aria-hidden="true">🕊️</span>
+        <h3>Misión</h3>
+        <p>Brindar servicios funerarios dignos y oportunos, acompañando a cada familia con sensibilidad, transparencia y
+          respeto por sus creencias y costumbres.</p>
+      </article>
+
+      <article class="tarjeta">
+        <span class="tarjeta-icono" aria-hidden="true">🌿</span>
+        <h3>Visión</h3>
+        <p>Ser la funeraria de confianza de las familias, reconocida por la calidad humana de su atención y por la
+          excelencia en cada uno de sus servicios.</p>
+      </article>
+
+      <article class="tarjeta">
+        <span class="tarjeta-icono" aria-hidden="true">🤍</span>
+        <h3>Valores</h3>
+        <p>Respeto, empatía, honestidad, responsabilidad y compromiso con la dignidad de cada persona y de su
+          familia.</p>
+      </article>
+    </div>
+
+    <!-- fotos de las instalaciones (css: .galeria-nosotros). Un archivo con espacios en el
+         nombre (sala de velacion.jpg) funciona pero es mejor renombrarlo, por ejemplo sala-
+         de-velacion.jpg. -->
+    <h3 class="titulo-galeria">Nuestras instalaciones</h3>
+    <div class="galeria-nosotros">
+      <div class="marco-imagen">
+        <img src="./imagenes/instalaciones/instalaciones.jpg" alt="Instalaciones de Funeraria Montecristo - imagen 1"
+          loading="lazy">
+      </div>
+      <div class="marco-imagen">
+        <img src="./imagenes/instalaciones/sala de velacion.jpg" alt="Instalaciones de Funeraria Montecristo - imagen 2"
+          loading="lazy">
+      </div>
+      <div class="marco-imagen">
+        <img src="./imagenes/instalaciones/velatorio.jpg" alt="Instalaciones de Funeraria Montecristo - imagen 3"
+          loading="lazy">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- PLANES: id='planes' = destino del menú (css: .planes) -->
+  <section id="planes" class="planes">
+
+    <h2 class="titulo-seccion">Planes funerarios</h2>
+    <p class="subtitulo-seccion">Elija el plan que mejor se adapte a las necesidades de su familia.</p>
+
+    <div class="planes-lista">
+
+      <article class="plan">
+        <h3>Plan Integral</h3>
+        <p class="plan-precio">Consultar precio</p>
+        <ul>
+          <li>Atención inmediata las 24 horas</li>
+          <li>Instalacion del servicio</li>
+          <li>Gestión de trámites</li>
+          <li>Consultar mas detalles con un asesor</li>
+        </ul>
+        <a href="tel:+51970892582" class="boton-detalles">Solicitar información</a>
+      </article>
+
+      <!-- plan resaltado: la clase plan-destacado le pone el borde verde y .plan-etiqueta
+           es el cartelito 'Más solicitado' que sobresale por arriba. -->
+      <article class="plan plan-destacado">
+        <span class="plan-etiqueta">Más solicitado</span>
+        <h3>Plan Preferencial</h3>
+        <p class="plan-precio">Consultar precio</p>
+        <ul>
+          <li>Atención inmediata las 24 horas</li>
+          <li>Instalacion del servicio</li>
+          <li>Gestión de trámites</li>
+          <li>Consultar mas detalles con un asesor</li>
+        </ul>
+        <a href="tel:+51970892582" class="boton-detalles">Solicitar información</a>
+      </article>
+
+      <article class="plan">
+        <h3>Servicio Montecristo</h3>
+        <p class="plan-precio">Consultar precio</p>
+        <ul>
+          <li>Carroza premium y autobus familiar</li>
+          <li>Arreglo floral</li>
+          <li>Cargadores</li>
+          <li>Servicio personalizado</li>
+          <li>Consultar mas detalles con un asesor</li>
+        </ul>
+        <a href="tel:+51970892582" class="boton-detalles">Solicitar información</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACTO: id='contacto' = destino del menú (css: .contacto, .dato) -->
+  <section id="contacto" class="contacto">
+
+    <h2 class="titulo-seccion">Contacto</h2>
+    <p class="subtitulo-seccion">Estamos disponibles las 24 horas, todos los días.</p>
+
+    <div class="contacto-datos">
+      <div class="dato">
+        <span class="dato-icono" aria-hidden="true">📞</span>
+        <h3>Teléfono</h3>
+        <a href="tel:+51970892582">+51 970 892 582</a>
+      </div>
+
+      <div class="dato">
+        <span class="dato-icono" aria-hidden="true">📍</span>
+        <h3>Dirección</h3>
+        <p>Jr. Coronel Domingo Casanova 411-lima</p>
+      </div>
+
+      <div class="dato">
+        <span class="dato-icono" aria-hidden="true">✉️</span>
+        <h3>Correo</h3>
+        <!-- mailto: abre el programa de correo con ese destinatario -->
+        <a href="mailto:montecristofuneraria@outlook.com">montecristofuneraria@outlook.com</a>
+      </div>
+
+      <div class="dato">
+        <span class="dato-icono" aria-hidden="true">🕐</span>
+        <h3>Horario</h3>
+        <p>Atención las 24 horas<br>los 365 días del año</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- pie de página (css: .pie) -->
+  <footer class="pie">
+    <p>&copy; 2026 Funeraria Montecristo. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+
+</html>
